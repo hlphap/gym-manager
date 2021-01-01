@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Gym_Managerment.GUI_SignIn;
+using Gym_Managerment.GUI_FrmMain;
+using Gym_Managerment.GUI_QuanLy;
 namespace Gym_Managerment
 {
     static class Program
@@ -16,7 +18,7 @@ namespace Gym_Managerment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frm_SignIn());
         }
     }
 }
