@@ -16,10 +16,22 @@ namespace Gym_Managerment.GUI_DanhSach
         {
             InitializeComponent();
         }
-
-        private void bt_DiemDanh_Click(object sender, EventArgs e)
+        private void Coach_Data_Row_Click_1(object sender, EventArgs e)
         {
-            bt_DiemDanh.Visible = false;
+            txtName.Text = Coach_Data_Row_1.lblName.Text;
+            txtSex.Text = Coach_Data_Row_1.lblSex.Text;
+            txtPhoneNumber.Text = Coach_Data_Row_1.lblPhoneNumber.Text;
+            txtEmail.Text = Coach_Data_Row_1.lblEmail.Text;
+        }
+
+        private void Coach_Data_Row_1_Load(object sender, EventArgs e)
+        {
+        }
+        public void DiemDanh_Handle_Click(object obj, EventArgs ea)
+        {
+            DataRow dataRow = (DataRow)obj;
+            //dataRow.lblStatus.Text = "Đã điểm danh";
+            //dataRow.lblStatus.ForeColor = ColorTranslator.FromHtml("#1EDB4");
         }
     }
 }

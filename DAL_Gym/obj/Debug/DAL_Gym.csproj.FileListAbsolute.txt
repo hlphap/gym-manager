@@ -1,0 +1,6 @@
+C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\DAL_Gym\bin\Debug\DAL_Gym.dll
+C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\DAL_Gym\bin\Debug\DAL_Gym.pdb
+C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\DAL_Gym\obj\Debug\DAL_Gym.csprojAssemblyReference.cache
+C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\DAL_Gym\obj\Debug\DAL_Gym.csproj.CoreCompileInputs.cache
+C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\DAL_Gym\obj\Debug\DAL_Gym.dll
+C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\DAL_Gym\obj\Debug\DAL_Gym.pdb

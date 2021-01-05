@@ -33,21 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu.Core, Version=1.11.4.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.Core">
+      <HintPath>..\..\Bunifu.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
-      <HintPath>..\..\..\Software\Bunifu UI\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\..\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
-      <HintPath>..\..\..\Software\Bunifu UI\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+      <HintPath>..\..\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPages">
-      <HintPath>..\..\..\Software\Bunifu UI\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+      <HintPath>..\..\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
-      <HintPath>..\..\..\Software\Bunifu UI\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+      <HintPath>..\..\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\Software\Bunifu UI\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,6 +79,12 @@
     <Compile Include="GUI_BaoCao\UC_BCGoiTap.Designer.cs">
       <DependentUpon>UC_BCGoiTap.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_DanhSach\DataRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_DanhSach\DataRow.Designer.cs">
+      <DependentUpon>DataRow.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_DanhSach\UC_HLV.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -89,6 +97,12 @@
     <Compile Include="GUI_DanhSach\UC_HoiVien.Designer.cs">
       <DependentUpon>UC_HoiVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_DicchVu\DataRowService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_DicchVu\DataRowService.Designer.cs">
+      <DependentUpon>DataRowService.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_DicchVu\UC_DichVu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -100,6 +114,18 @@
     </Compile>
     <Compile Include="GUI_FrmMain\FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_HoiVien\DataRowMember.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_HoiVien\DataRowMember.Designer.cs">
+      <DependentUpon>DataRowMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_HoiVien\DataRowWardrobe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_HoiVien\DataRowWardrobe.Designer.cs">
+      <DependentUpon>DataRowWardrobe.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_HoiVien\UC_DKGoiTap.cs">
       <SubType>UserControl</SubType>
@@ -173,6 +199,12 @@
     <Compile Include="GUI_SignIn\Frm_SignIn.Designer.cs">
       <DependentUpon>Frm_SignIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_ThongTinTaiKhoan\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_ThongTinTaiKhoan\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_ThongTinTaiKhoan\Frm_ThongTinTK.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,17 +219,29 @@
     <EmbeddedResource Include="GUI_BaoCao\UC_BCGoiTap.resx">
       <DependentUpon>UC_BCGoiTap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_DanhSach\DataRow.resx">
+      <DependentUpon>DataRow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_DanhSach\UC_HLV.resx">
       <DependentUpon>UC_HLV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_DanhSach\UC_HoiVien.resx">
       <DependentUpon>UC_HoiVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_DicchVu\DataRowService.resx">
+      <DependentUpon>DataRowService.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_DicchVu\UC_DichVu.resx">
       <DependentUpon>UC_DichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_FrmMain\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_HoiVien\DataRowMember.resx">
+      <DependentUpon>DataRowMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_HoiVien\DataRowWardrobe.resx">
+      <DependentUpon>DataRowWardrobe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_HoiVien\UC_DKGoiTap.resx">
       <DependentUpon>UC_DKGoiTap.cs</DependentUpon>
@@ -234,6 +278,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_SignIn\Frm_SignIn.resx">
       <DependentUpon>Frm_SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_ThongTinTaiKhoan\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_ThongTinTaiKhoan\Frm_ThongTinTK.resx">
       <DependentUpon>Frm_ThongTinTK.cs</DependentUpon>
