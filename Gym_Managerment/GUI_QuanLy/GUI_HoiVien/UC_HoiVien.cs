@@ -16,5 +16,13 @@ namespace Gym_Managerment.GUI_QuanLy.GUI_HoiVien
         {
             InitializeComponent();
         }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            UC_DataRowHoiVien uc_datarow = new UC_DataRowHoiVien();
+            uc_datarow.Dock = DockStyle.Top;
+            uc_datarow.ShowPanel();
+            dataGridHoiVien.Controls.Add(uc_datarow);
+        }
     }
 }

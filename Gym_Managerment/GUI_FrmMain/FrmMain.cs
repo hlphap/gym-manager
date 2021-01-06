@@ -26,6 +26,7 @@ namespace Gym_Managerment.GUI_FrmMain
         UC_DichVu gui_DV = new UC_DichVu();
         UC_BCDoanhThu gui_BCDT = new UC_BCDoanhThu();
         UC_BCGoiTap gui_BCGT = new UC_BCGoiTap();
+        UC_HoaDon gui_HD = new UC_HoaDon();
 
         
 
@@ -47,6 +48,7 @@ namespace Gym_Managerment.GUI_FrmMain
             pn_Content.Controls.Add(gui_DV);
             pn_Content.Controls.Add(gui_BCDT);
             pn_Content.Controls.Add(gui_BCGT);
+            pn_Content.Controls.Add(gui_HD);
         }
 
         private void HideSubPanel()
@@ -177,6 +179,11 @@ namespace Gym_Managerment.GUI_FrmMain
             this.Hide();
             frm_QuanLy.frmMain = this;
             frm_QuanLy.ShowDialog();
+        }
+
+        private void bt_HD_Click(object sender, EventArgs e)
+        {
+            gui_HD.BringToFront();
         }
     }
 }

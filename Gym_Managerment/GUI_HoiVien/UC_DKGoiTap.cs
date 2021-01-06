@@ -22,13 +22,7 @@ namespace Gym_Managerment.GUI_HoiVien
 
         }
 
-        private void dataRowMember_Click(object sender, EventArgs e)
-        {
-            txtPackage.Text = dataRowMember.lblPackage.Text;
-            txtQuantity.Text = dataRowMember.lblQuantity.Text;
-            // Date Start, Date End ??? What type??
-        }
-
+     
         private void dataRowMember_Load(object sender, EventArgs e)
         {
 

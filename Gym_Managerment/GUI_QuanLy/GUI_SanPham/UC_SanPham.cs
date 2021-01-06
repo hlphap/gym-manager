@@ -16,5 +16,13 @@ namespace Gym_Managerment.GUI_QuanLy.GUI_SanPham
         {
             InitializeComponent();
         }
+
+        private void bt_Them_Click(object sender, EventArgs e)
+        {
+            UC_DataRowSanPham uc_datarow = new UC_DataRowSanPham();
+            uc_datarow.Dock = DockStyle.Top;
+            uc_datarow.ShowPanel();
+            dataGridSanPham.Controls.Add(uc_datarow);
+        }
     }
 }

@@ -16,5 +16,14 @@ namespace Gym_Managerment.GUI_QuanLy.GUI_GoiTap
         {
             InitializeComponent();
         }
+
+        private void bt_Them_Click(object sender, EventArgs e)
+        {
+            UC_DataRowGoiTap uc_datarow = new UC_DataRowGoiTap();
+            uc_datarow.Dock = DockStyle.Top;
+            uc_datarow.ShowPanel();
+            dataGridGoiTap.Controls.Add(uc_datarow);
+
+        }
     }
 }

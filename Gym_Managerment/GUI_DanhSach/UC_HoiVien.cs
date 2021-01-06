@@ -17,9 +17,6 @@ namespace Gym_Managerment.GUI_DanhSach
             InitializeComponent();
         }
 
-        private void bt_DiemDanh_Click(object sender, EventArgs e)
-        {
-            bt_DiemDanh.Visible = false;
-        }
+
     }
 }

@@ -19,7 +19,7 @@ namespace Gym_Managerment.GUI_HoiVien
 
         private void dataRowWardrobe_Click(object sender, EventArgs e)
         {
-            txtName.Text = dataRowWardrobe.lblWardrobe.Text;
+            cbBox_Name.Text = dataRowWardrobe.lblWardrobe.Text;
             txtDescription.Text = "Data From Database";
             txtNote.Text = "Data from Datebase";
         }

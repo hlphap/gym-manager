@@ -16,5 +16,13 @@ namespace Gym_Managerment.GUI_QuanLy.GUI_NhanVien
         {
             InitializeComponent();
         }
+
+        private void bt_Them_Click(object sender, EventArgs e)
+        {
+            UC_DataRowNhanVien uc_datarow = new UC_DataRowNhanVien();
+            uc_datarow.Dock = DockStyle.Top;
+            uc_datarow.ShowPanel();
+            dataGridNhanVien.Controls.Add(uc_datarow);
+        }
     }
 }

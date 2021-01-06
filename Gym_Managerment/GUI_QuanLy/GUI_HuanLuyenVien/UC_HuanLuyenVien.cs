@@ -16,5 +16,13 @@ namespace Gym_Managerment.GUI_QuanLy.GUI_HuanLuyenVien
         {
             InitializeComponent();
         }
+
+        private void bt_Them_Click(object sender, EventArgs e)
+        {
+            UC_DataRowHLV uc_datarow = new UC_DataRowHLV();
+            uc_datarow.Dock = DockStyle.Top;
+            uc_datarow.ShowPanel();
+            dataGridHLV.Controls.Add(uc_datarow);
+        }
     }
 }

@@ -44,10 +44,9 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(139, 12);
-            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblName.Location = new System.Drawing.Point(104, 10);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(117, 25);
+            this.lblName.Size = new System.Drawing.Size(93, 20);
             this.lblName.TabIndex = 34;
             this.lblName.Text = "Lê Anh Tuấn";
             // 
@@ -55,10 +54,9 @@
             // 
             this.lblPhoneNumber.AutoSize = true;
             this.lblPhoneNumber.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhoneNumber.Location = new System.Drawing.Point(655, 12);
-            this.lblPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(491, 10);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(94, 25);
+            this.lblPhoneNumber.Size = new System.Drawing.Size(70, 20);
             this.lblPhoneNumber.TabIndex = 35;
             this.lblPhoneNumber.Text = "01231423";
             // 
@@ -66,10 +64,9 @@
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(916, 12);
-            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEmail.Location = new System.Drawing.Point(687, 10);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(200, 25);
+            this.lblEmail.Size = new System.Drawing.Size(155, 20);
             this.lblEmail.TabIndex = 36;
             this.lblEmail.Text = "tinrist123@gmail.com";
             // 
@@ -77,10 +74,9 @@
             // 
             this.lblSex.AutoSize = true;
             this.lblSex.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSex.Location = new System.Drawing.Point(409, 12);
-            this.lblSex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSex.Location = new System.Drawing.Point(307, 10);
             this.lblSex.Name = "lblSex";
-            this.lblSex.Size = new System.Drawing.Size(54, 25);
+            this.lblSex.Size = new System.Drawing.Size(42, 20);
             this.lblSex.TabIndex = 37;
             this.lblSex.Text = "Nam";
             // 
@@ -89,10 +85,9 @@
             this.lblIndex.AutoSize = true;
             this.lblIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIndex.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.lblIndex.Location = new System.Drawing.Point(16, 9);
-            this.lblIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIndex.Location = new System.Drawing.Point(12, 7);
             this.lblIndex.Name = "lblIndex";
-            this.lblIndex.Size = new System.Drawing.Size(30, 31);
+            this.lblIndex.Size = new System.Drawing.Size(25, 25);
             this.lblIndex.TabIndex = 33;
             this.lblIndex.TabStop = true;
             this.lblIndex.Text = "1";
@@ -128,17 +123,16 @@
             this.btnDiemDanh.IconPadding = 10;
             this.btnDiemDanh.IconRightCursor = System.Windows.Forms.Cursors.Hand;
             this.btnDiemDanh.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(144)))), ((int)(((byte)(196)))));
-            this.btnDiemDanh.IdleBorderRadius = 30;
+            this.btnDiemDanh.IdleBorderRadius = 35;
             this.btnDiemDanh.IdleBorderThickness = 2;
             this.btnDiemDanh.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(144)))), ((int)(((byte)(196)))));
             this.btnDiemDanh.IdleIconLeftImage = null;
             this.btnDiemDanh.IdleIconRightImage = null;
             this.btnDiemDanh.IndicateFocus = false;
-            this.btnDiemDanh.Location = new System.Drawing.Point(1234, 3);
-            this.btnDiemDanh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDiemDanh.Location = new System.Drawing.Point(926, 2);
             this.btnDiemDanh.Name = "btnDiemDanh";
             stateProperties1.BorderColor = System.Drawing.Color.WhiteSmoke;
-            stateProperties1.BorderRadius = 30;
+            stateProperties1.BorderRadius = 35;
             stateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             stateProperties1.BorderThickness = 2;
             stateProperties1.FillColor = System.Drawing.Color.WhiteSmoke;
@@ -147,7 +141,7 @@
             stateProperties1.IconRightImage = null;
             this.btnDiemDanh.onHoverState = stateProperties1;
             stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(168)))), ((int)(((byte)(147)))));
-            stateProperties2.BorderRadius = 30;
+            stateProperties2.BorderRadius = 35;
             stateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             stateProperties2.BorderThickness = 2;
             stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(168)))), ((int)(((byte)(147)))));
@@ -155,7 +149,7 @@
             stateProperties2.IconLeftImage = null;
             stateProperties2.IconRightImage = null;
             this.btnDiemDanh.OnPressedState = stateProperties2;
-            this.btnDiemDanh.Size = new System.Drawing.Size(131, 50);
+            this.btnDiemDanh.Size = new System.Drawing.Size(98, 41);
             this.btnDiemDanh.TabIndex = 41;
             this.btnDiemDanh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnDiemDanh.TextMarginLeft = 0;
@@ -164,7 +158,7 @@
             // 
             // DataRow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnDiemDanh);
             this.Controls.Add(this.lblSex);
@@ -172,8 +166,9 @@
             this.Controls.Add(this.lblPhoneNumber);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblIndex);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DataRow";
-            this.Size = new System.Drawing.Size(1631, 53);
+            this.Size = new System.Drawing.Size(1223, 43);
             this.Load += new System.EventHandler(this.DataRow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -35,15 +35,6 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pn_SubHT = new System.Windows.Forms.Panel();
-            this.bt_QuanLy = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_ThongTinTaiKhoan = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_HT = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.pn_SubBC = new System.Windows.Forms.Panel();
-            this.bt_GoiTap = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_BCDoanhThu = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_BC = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bt_BanHangHoa = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pn_SubHV = new System.Windows.Forms.Panel();
             this.bt_DangKyTuDo = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bt_DangKyHLV = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -60,18 +51,28 @@
             this.bt_Exit = new Bunifu.Framework.UI.BunifuImageButton();
             this.KeoTha = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pn_Content = new System.Windows.Forms.Panel();
+            this.pn_SubHT = new System.Windows.Forms.Panel();
+            this.bt_ThongTinTaiKhoan = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_QuanLy = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pn_SubBC = new System.Windows.Forms.Panel();
+            this.bt_HT = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_BCDoanhThu = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_GoiTap = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_BanHangHoa = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_BC = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bt_HD = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.pn_SubHT.SuspendLayout();
-            this.pn_SubBC.SuspendLayout();
             this.pn_SubHV.SuspendLayout();
             this.pn_SubDS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.pn_CC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_Exit)).BeginInit();
+            this.pn_SubHT.SuspendLayout();
+            this.pn_SubBC.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -131,299 +132,6 @@
             this.panel6.Size = new System.Drawing.Size(254, 611);
             this.panel6.TabIndex = 0;
             // 
-            // pn_SubHT
-            // 
-            this.pn_SubHT.Controls.Add(this.bt_QuanLy);
-            this.pn_SubHT.Controls.Add(this.bt_ThongTinTaiKhoan);
-            this.pn_SubHT.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pn_SubHT.Location = new System.Drawing.Point(0, 698);
-            this.pn_SubHT.Name = "pn_SubHT";
-            this.pn_SubHT.Size = new System.Drawing.Size(237, 90);
-            this.pn_SubHT.TabIndex = 15;
-            // 
-            // bt_QuanLy
-            // 
-            this.bt_QuanLy.Active = false;
-            this.bt_QuanLy.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_QuanLy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_QuanLy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_QuanLy.BorderRadius = 0;
-            this.bt_QuanLy.ButtonText = "                 Quản lý";
-            this.bt_QuanLy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_QuanLy.DisabledColor = System.Drawing.Color.Gray;
-            this.bt_QuanLy.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_QuanLy.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_QuanLy.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_QuanLy.Iconimage = null;
-            this.bt_QuanLy.Iconimage_right = null;
-            this.bt_QuanLy.Iconimage_right_Selected = null;
-            this.bt_QuanLy.Iconimage_Selected = null;
-            this.bt_QuanLy.IconMarginLeft = 0;
-            this.bt_QuanLy.IconMarginRight = 0;
-            this.bt_QuanLy.IconRightVisible = true;
-            this.bt_QuanLy.IconRightZoom = 0D;
-            this.bt_QuanLy.IconVisible = true;
-            this.bt_QuanLy.IconZoom = 35D;
-            this.bt_QuanLy.IsTab = false;
-            this.bt_QuanLy.Location = new System.Drawing.Point(0, 41);
-            this.bt_QuanLy.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_QuanLy.Name = "bt_QuanLy";
-            this.bt_QuanLy.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_QuanLy.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_QuanLy.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_QuanLy.selected = false;
-            this.bt_QuanLy.Size = new System.Drawing.Size(237, 41);
-            this.bt_QuanLy.TabIndex = 8;
-            this.bt_QuanLy.Text = "                 Quản lý";
-            this.bt_QuanLy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_QuanLy.Textcolor = System.Drawing.Color.White;
-            this.bt_QuanLy.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_QuanLy.Click += new System.EventHandler(this.bt_QuanLy_Click);
-            // 
-            // bt_ThongTinTaiKhoan
-            // 
-            this.bt_ThongTinTaiKhoan.Active = false;
-            this.bt_ThongTinTaiKhoan.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_ThongTinTaiKhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_ThongTinTaiKhoan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_ThongTinTaiKhoan.BorderRadius = 0;
-            this.bt_ThongTinTaiKhoan.ButtonText = "                 Tài khoản";
-            this.bt_ThongTinTaiKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_ThongTinTaiKhoan.DisabledColor = System.Drawing.Color.Gray;
-            this.bt_ThongTinTaiKhoan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_ThongTinTaiKhoan.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_ThongTinTaiKhoan.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_ThongTinTaiKhoan.Iconimage = null;
-            this.bt_ThongTinTaiKhoan.Iconimage_right = null;
-            this.bt_ThongTinTaiKhoan.Iconimage_right_Selected = null;
-            this.bt_ThongTinTaiKhoan.Iconimage_Selected = null;
-            this.bt_ThongTinTaiKhoan.IconMarginLeft = 0;
-            this.bt_ThongTinTaiKhoan.IconMarginRight = 0;
-            this.bt_ThongTinTaiKhoan.IconRightVisible = true;
-            this.bt_ThongTinTaiKhoan.IconRightZoom = 0D;
-            this.bt_ThongTinTaiKhoan.IconVisible = true;
-            this.bt_ThongTinTaiKhoan.IconZoom = 35D;
-            this.bt_ThongTinTaiKhoan.IsTab = false;
-            this.bt_ThongTinTaiKhoan.Location = new System.Drawing.Point(0, 0);
-            this.bt_ThongTinTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_ThongTinTaiKhoan.Name = "bt_ThongTinTaiKhoan";
-            this.bt_ThongTinTaiKhoan.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_ThongTinTaiKhoan.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_ThongTinTaiKhoan.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_ThongTinTaiKhoan.selected = false;
-            this.bt_ThongTinTaiKhoan.Size = new System.Drawing.Size(237, 41);
-            this.bt_ThongTinTaiKhoan.TabIndex = 7;
-            this.bt_ThongTinTaiKhoan.Text = "                 Tài khoản";
-            this.bt_ThongTinTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_ThongTinTaiKhoan.Textcolor = System.Drawing.Color.White;
-            this.bt_ThongTinTaiKhoan.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_ThongTinTaiKhoan.Click += new System.EventHandler(this.bt_ThongTinTaiKhoan_Click);
-            // 
-            // bt_HT
-            // 
-            this.bt_HT.Active = false;
-            this.bt_HT.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_HT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_HT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_HT.BorderRadius = 0;
-            this.bt_HT.ButtonText = "      Hệ thống";
-            this.bt_HT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_HT.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_HT.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_HT.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_HT.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_HT.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_HT.Iconimage")));
-            this.bt_HT.Iconimage_right = null;
-            this.bt_HT.Iconimage_right_Selected = null;
-            this.bt_HT.Iconimage_Selected = null;
-            this.bt_HT.IconMarginLeft = 0;
-            this.bt_HT.IconMarginRight = 0;
-            this.bt_HT.IconRightVisible = true;
-            this.bt_HT.IconRightZoom = 0D;
-            this.bt_HT.IconVisible = true;
-            this.bt_HT.IconZoom = 35D;
-            this.bt_HT.IsTab = false;
-            this.bt_HT.Location = new System.Drawing.Point(0, 628);
-            this.bt_HT.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_HT.Name = "bt_HT";
-            this.bt_HT.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_HT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_HT.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_HT.selected = false;
-            this.bt_HT.Size = new System.Drawing.Size(237, 70);
-            this.bt_HT.TabIndex = 14;
-            this.bt_HT.Text = "      Hệ thống";
-            this.bt_HT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_HT.Textcolor = System.Drawing.Color.White;
-            this.bt_HT.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_HT.Click += new System.EventHandler(this.bt_HT_Click);
-            // 
-            // pn_SubBC
-            // 
-            this.pn_SubBC.Controls.Add(this.bt_GoiTap);
-            this.pn_SubBC.Controls.Add(this.bt_BCDoanhThu);
-            this.pn_SubBC.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pn_SubBC.Location = new System.Drawing.Point(0, 538);
-            this.pn_SubBC.Name = "pn_SubBC";
-            this.pn_SubBC.Size = new System.Drawing.Size(237, 90);
-            this.pn_SubBC.TabIndex = 13;
-            // 
-            // bt_GoiTap
-            // 
-            this.bt_GoiTap.Active = false;
-            this.bt_GoiTap.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_GoiTap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_GoiTap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_GoiTap.BorderRadius = 0;
-            this.bt_GoiTap.ButtonText = "                 Gói tập";
-            this.bt_GoiTap.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_GoiTap.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_GoiTap.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_GoiTap.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_GoiTap.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_GoiTap.Iconimage = null;
-            this.bt_GoiTap.Iconimage_right = null;
-            this.bt_GoiTap.Iconimage_right_Selected = null;
-            this.bt_GoiTap.Iconimage_Selected = null;
-            this.bt_GoiTap.IconMarginLeft = 0;
-            this.bt_GoiTap.IconMarginRight = 0;
-            this.bt_GoiTap.IconRightVisible = true;
-            this.bt_GoiTap.IconRightZoom = 0D;
-            this.bt_GoiTap.IconVisible = true;
-            this.bt_GoiTap.IconZoom = 35D;
-            this.bt_GoiTap.IsTab = false;
-            this.bt_GoiTap.Location = new System.Drawing.Point(0, 41);
-            this.bt_GoiTap.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_GoiTap.Name = "bt_GoiTap";
-            this.bt_GoiTap.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_GoiTap.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_GoiTap.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_GoiTap.selected = false;
-            this.bt_GoiTap.Size = new System.Drawing.Size(237, 41);
-            this.bt_GoiTap.TabIndex = 8;
-            this.bt_GoiTap.Text = "                 Gói tập";
-            this.bt_GoiTap.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_GoiTap.Textcolor = System.Drawing.Color.White;
-            this.bt_GoiTap.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_GoiTap.Click += new System.EventHandler(this.bt_GoiTap_Click);
-            // 
-            // bt_BCDoanhThu
-            // 
-            this.bt_BCDoanhThu.Active = false;
-            this.bt_BCDoanhThu.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_BCDoanhThu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BCDoanhThu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_BCDoanhThu.BorderRadius = 0;
-            this.bt_BCDoanhThu.ButtonText = "                 Doanh thu";
-            this.bt_BCDoanhThu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_BCDoanhThu.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BCDoanhThu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_BCDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_BCDoanhThu.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_BCDoanhThu.Iconimage = null;
-            this.bt_BCDoanhThu.Iconimage_right = null;
-            this.bt_BCDoanhThu.Iconimage_right_Selected = null;
-            this.bt_BCDoanhThu.Iconimage_Selected = null;
-            this.bt_BCDoanhThu.IconMarginLeft = 0;
-            this.bt_BCDoanhThu.IconMarginRight = 0;
-            this.bt_BCDoanhThu.IconRightVisible = true;
-            this.bt_BCDoanhThu.IconRightZoom = 0D;
-            this.bt_BCDoanhThu.IconVisible = true;
-            this.bt_BCDoanhThu.IconZoom = 35D;
-            this.bt_BCDoanhThu.IsTab = false;
-            this.bt_BCDoanhThu.Location = new System.Drawing.Point(0, 0);
-            this.bt_BCDoanhThu.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_BCDoanhThu.Name = "bt_BCDoanhThu";
-            this.bt_BCDoanhThu.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BCDoanhThu.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BCDoanhThu.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_BCDoanhThu.selected = false;
-            this.bt_BCDoanhThu.Size = new System.Drawing.Size(237, 41);
-            this.bt_BCDoanhThu.TabIndex = 7;
-            this.bt_BCDoanhThu.Text = "                 Doanh thu";
-            this.bt_BCDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_BCDoanhThu.Textcolor = System.Drawing.Color.White;
-            this.bt_BCDoanhThu.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_BCDoanhThu.Click += new System.EventHandler(this.bt_BCDoanhThu_Click);
-            // 
-            // bt_BC
-            // 
-            this.bt_BC.Active = false;
-            this.bt_BC.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_BC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_BC.BorderRadius = 0;
-            this.bt_BC.ButtonText = "      Báo cáo";
-            this.bt_BC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_BC.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BC.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_BC.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_BC.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_BC.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_BC.Iconimage")));
-            this.bt_BC.Iconimage_right = null;
-            this.bt_BC.Iconimage_right_Selected = null;
-            this.bt_BC.Iconimage_Selected = null;
-            this.bt_BC.IconMarginLeft = 0;
-            this.bt_BC.IconMarginRight = 0;
-            this.bt_BC.IconRightVisible = true;
-            this.bt_BC.IconRightZoom = 0D;
-            this.bt_BC.IconVisible = true;
-            this.bt_BC.IconZoom = 35D;
-            this.bt_BC.IsTab = false;
-            this.bt_BC.Location = new System.Drawing.Point(0, 468);
-            this.bt_BC.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_BC.Name = "bt_BC";
-            this.bt_BC.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BC.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BC.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_BC.selected = false;
-            this.bt_BC.Size = new System.Drawing.Size(237, 70);
-            this.bt_BC.TabIndex = 12;
-            this.bt_BC.Text = "      Báo cáo";
-            this.bt_BC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_BC.Textcolor = System.Drawing.Color.White;
-            this.bt_BC.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_BC.Click += new System.EventHandler(this.bt_BC_Click);
-            // 
-            // bt_BanHangHoa
-            // 
-            this.bt_BanHangHoa.Active = false;
-            this.bt_BanHangHoa.Activecolor = System.Drawing.Color.Transparent;
-            this.bt_BanHangHoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BanHangHoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bt_BanHangHoa.BorderRadius = 0;
-            this.bt_BanHangHoa.ButtonText = "      Bán hàng";
-            this.bt_BanHangHoa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_BanHangHoa.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BanHangHoa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_BanHangHoa.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_BanHangHoa.Iconcolor = System.Drawing.Color.Transparent;
-            this.bt_BanHangHoa.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_BanHangHoa.Iconimage")));
-            this.bt_BanHangHoa.Iconimage_right = null;
-            this.bt_BanHangHoa.Iconimage_right_Selected = null;
-            this.bt_BanHangHoa.Iconimage_Selected = null;
-            this.bt_BanHangHoa.IconMarginLeft = 0;
-            this.bt_BanHangHoa.IconMarginRight = 0;
-            this.bt_BanHangHoa.IconRightVisible = true;
-            this.bt_BanHangHoa.IconRightZoom = 0D;
-            this.bt_BanHangHoa.IconVisible = true;
-            this.bt_BanHangHoa.IconZoom = 35D;
-            this.bt_BanHangHoa.IsTab = false;
-            this.bt_BanHangHoa.Location = new System.Drawing.Point(0, 398);
-            this.bt_BanHangHoa.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_BanHangHoa.Name = "bt_BanHangHoa";
-            this.bt_BanHangHoa.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BanHangHoa.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
-            this.bt_BanHangHoa.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
-            this.bt_BanHangHoa.selected = false;
-            this.bt_BanHangHoa.Size = new System.Drawing.Size(237, 70);
-            this.bt_BanHangHoa.TabIndex = 10;
-            this.bt_BanHangHoa.Text = "      Bán hàng";
-            this.bt_BanHangHoa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_BanHangHoa.Textcolor = System.Drawing.Color.White;
-            this.bt_BanHangHoa.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_BanHangHoa.Click += new System.EventHandler(this.bt_DV_Click);
-            // 
             // pn_SubHV
             // 
             this.pn_SubHV.Controls.Add(this.bt_DangKyTuDo);
@@ -431,7 +139,7 @@
             this.pn_SubHV.Controls.Add(this.bt_DangKyGoiTap);
             this.pn_SubHV.Controls.Add(this.bt_DangKyMoi);
             this.pn_SubHV.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pn_SubHV.Location = new System.Drawing.Point(0, 227);
+            this.pn_SubHV.Location = new System.Drawing.Point(0, 262);
             this.pn_SubHV.Name = "pn_SubHV";
             this.pn_SubHV.Size = new System.Drawing.Size(237, 171);
             this.pn_SubHV.TabIndex = 9;
@@ -615,7 +323,7 @@
             this.bt_HV.IconVisible = true;
             this.bt_HV.IconZoom = 35D;
             this.bt_HV.IsTab = false;
-            this.bt_HV.Location = new System.Drawing.Point(0, 157);
+            this.bt_HV.Location = new System.Drawing.Point(0, 192);
             this.bt_HV.Margin = new System.Windows.Forms.Padding(4);
             this.bt_HV.Name = "bt_HV";
             this.bt_HV.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
@@ -632,12 +340,13 @@
             // 
             // pn_SubDS
             // 
+            this.pn_SubDS.Controls.Add(this.bt_HD);
             this.pn_SubDS.Controls.Add(this.bt_HLV);
             this.pn_SubDS.Controls.Add(this.bt_HoiVien);
             this.pn_SubDS.Dock = System.Windows.Forms.DockStyle.Top;
             this.pn_SubDS.Location = new System.Drawing.Point(0, 70);
             this.pn_SubDS.Name = "pn_SubDS";
-            this.pn_SubDS.Size = new System.Drawing.Size(237, 87);
+            this.pn_SubDS.Size = new System.Drawing.Size(237, 122);
             this.pn_SubDS.TabIndex = 7;
             // 
             // bt_HLV
@@ -819,6 +528,338 @@
             this.pn_Content.Size = new System.Drawing.Size(1253, 770);
             this.pn_Content.TabIndex = 2;
             // 
+            // pn_SubHT
+            // 
+            this.pn_SubHT.Controls.Add(this.bt_QuanLy);
+            this.pn_SubHT.Controls.Add(this.bt_ThongTinTaiKhoan);
+            this.pn_SubHT.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pn_SubHT.Location = new System.Drawing.Point(0, 733);
+            this.pn_SubHT.Name = "pn_SubHT";
+            this.pn_SubHT.Size = new System.Drawing.Size(237, 90);
+            this.pn_SubHT.TabIndex = 15;
+            // 
+            // bt_ThongTinTaiKhoan
+            // 
+            this.bt_ThongTinTaiKhoan.Active = false;
+            this.bt_ThongTinTaiKhoan.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_ThongTinTaiKhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_ThongTinTaiKhoan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_ThongTinTaiKhoan.BorderRadius = 0;
+            this.bt_ThongTinTaiKhoan.ButtonText = "                 Tài khoản";
+            this.bt_ThongTinTaiKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_ThongTinTaiKhoan.DisabledColor = System.Drawing.Color.Gray;
+            this.bt_ThongTinTaiKhoan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_ThongTinTaiKhoan.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ThongTinTaiKhoan.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_ThongTinTaiKhoan.Iconimage = null;
+            this.bt_ThongTinTaiKhoan.Iconimage_right = null;
+            this.bt_ThongTinTaiKhoan.Iconimage_right_Selected = null;
+            this.bt_ThongTinTaiKhoan.Iconimage_Selected = null;
+            this.bt_ThongTinTaiKhoan.IconMarginLeft = 0;
+            this.bt_ThongTinTaiKhoan.IconMarginRight = 0;
+            this.bt_ThongTinTaiKhoan.IconRightVisible = true;
+            this.bt_ThongTinTaiKhoan.IconRightZoom = 0D;
+            this.bt_ThongTinTaiKhoan.IconVisible = true;
+            this.bt_ThongTinTaiKhoan.IconZoom = 35D;
+            this.bt_ThongTinTaiKhoan.IsTab = false;
+            this.bt_ThongTinTaiKhoan.Location = new System.Drawing.Point(0, 0);
+            this.bt_ThongTinTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_ThongTinTaiKhoan.Name = "bt_ThongTinTaiKhoan";
+            this.bt_ThongTinTaiKhoan.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_ThongTinTaiKhoan.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_ThongTinTaiKhoan.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_ThongTinTaiKhoan.selected = false;
+            this.bt_ThongTinTaiKhoan.Size = new System.Drawing.Size(237, 41);
+            this.bt_ThongTinTaiKhoan.TabIndex = 7;
+            this.bt_ThongTinTaiKhoan.Text = "                 Tài khoản";
+            this.bt_ThongTinTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_ThongTinTaiKhoan.Textcolor = System.Drawing.Color.White;
+            this.bt_ThongTinTaiKhoan.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ThongTinTaiKhoan.Click += new System.EventHandler(this.bt_ThongTinTaiKhoan_Click);
+            // 
+            // bt_QuanLy
+            // 
+            this.bt_QuanLy.Active = false;
+            this.bt_QuanLy.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_QuanLy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_QuanLy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_QuanLy.BorderRadius = 0;
+            this.bt_QuanLy.ButtonText = "                 Quản lý";
+            this.bt_QuanLy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_QuanLy.DisabledColor = System.Drawing.Color.Gray;
+            this.bt_QuanLy.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_QuanLy.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_QuanLy.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_QuanLy.Iconimage = null;
+            this.bt_QuanLy.Iconimage_right = null;
+            this.bt_QuanLy.Iconimage_right_Selected = null;
+            this.bt_QuanLy.Iconimage_Selected = null;
+            this.bt_QuanLy.IconMarginLeft = 0;
+            this.bt_QuanLy.IconMarginRight = 0;
+            this.bt_QuanLy.IconRightVisible = true;
+            this.bt_QuanLy.IconRightZoom = 0D;
+            this.bt_QuanLy.IconVisible = true;
+            this.bt_QuanLy.IconZoom = 35D;
+            this.bt_QuanLy.IsTab = false;
+            this.bt_QuanLy.Location = new System.Drawing.Point(0, 41);
+            this.bt_QuanLy.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_QuanLy.Name = "bt_QuanLy";
+            this.bt_QuanLy.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_QuanLy.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_QuanLy.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_QuanLy.selected = false;
+            this.bt_QuanLy.Size = new System.Drawing.Size(237, 41);
+            this.bt_QuanLy.TabIndex = 8;
+            this.bt_QuanLy.Text = "                 Quản lý";
+            this.bt_QuanLy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_QuanLy.Textcolor = System.Drawing.Color.White;
+            this.bt_QuanLy.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_QuanLy.Click += new System.EventHandler(this.bt_QuanLy_Click);
+            // 
+            // pn_SubBC
+            // 
+            this.pn_SubBC.Controls.Add(this.bt_GoiTap);
+            this.pn_SubBC.Controls.Add(this.bt_BCDoanhThu);
+            this.pn_SubBC.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pn_SubBC.Location = new System.Drawing.Point(0, 573);
+            this.pn_SubBC.Name = "pn_SubBC";
+            this.pn_SubBC.Size = new System.Drawing.Size(237, 90);
+            this.pn_SubBC.TabIndex = 13;
+            // 
+            // bt_HT
+            // 
+            this.bt_HT.Active = false;
+            this.bt_HT.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_HT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_HT.BorderRadius = 0;
+            this.bt_HT.ButtonText = "      Hệ thống";
+            this.bt_HT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_HT.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HT.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_HT.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HT.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_HT.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_HT.Iconimage")));
+            this.bt_HT.Iconimage_right = null;
+            this.bt_HT.Iconimage_right_Selected = null;
+            this.bt_HT.Iconimage_Selected = null;
+            this.bt_HT.IconMarginLeft = 0;
+            this.bt_HT.IconMarginRight = 0;
+            this.bt_HT.IconRightVisible = true;
+            this.bt_HT.IconRightZoom = 0D;
+            this.bt_HT.IconVisible = true;
+            this.bt_HT.IconZoom = 35D;
+            this.bt_HT.IsTab = false;
+            this.bt_HT.Location = new System.Drawing.Point(0, 663);
+            this.bt_HT.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_HT.Name = "bt_HT";
+            this.bt_HT.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HT.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_HT.selected = false;
+            this.bt_HT.Size = new System.Drawing.Size(237, 70);
+            this.bt_HT.TabIndex = 14;
+            this.bt_HT.Text = "      Hệ thống";
+            this.bt_HT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_HT.Textcolor = System.Drawing.Color.White;
+            this.bt_HT.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HT.Click += new System.EventHandler(this.bt_HT_Click);
+            // 
+            // bt_BCDoanhThu
+            // 
+            this.bt_BCDoanhThu.Active = false;
+            this.bt_BCDoanhThu.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_BCDoanhThu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BCDoanhThu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_BCDoanhThu.BorderRadius = 0;
+            this.bt_BCDoanhThu.ButtonText = "                 Doanh thu";
+            this.bt_BCDoanhThu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_BCDoanhThu.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BCDoanhThu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_BCDoanhThu.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_BCDoanhThu.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_BCDoanhThu.Iconimage = null;
+            this.bt_BCDoanhThu.Iconimage_right = null;
+            this.bt_BCDoanhThu.Iconimage_right_Selected = null;
+            this.bt_BCDoanhThu.Iconimage_Selected = null;
+            this.bt_BCDoanhThu.IconMarginLeft = 0;
+            this.bt_BCDoanhThu.IconMarginRight = 0;
+            this.bt_BCDoanhThu.IconRightVisible = true;
+            this.bt_BCDoanhThu.IconRightZoom = 0D;
+            this.bt_BCDoanhThu.IconVisible = true;
+            this.bt_BCDoanhThu.IconZoom = 35D;
+            this.bt_BCDoanhThu.IsTab = false;
+            this.bt_BCDoanhThu.Location = new System.Drawing.Point(0, 0);
+            this.bt_BCDoanhThu.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_BCDoanhThu.Name = "bt_BCDoanhThu";
+            this.bt_BCDoanhThu.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BCDoanhThu.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BCDoanhThu.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_BCDoanhThu.selected = false;
+            this.bt_BCDoanhThu.Size = new System.Drawing.Size(237, 41);
+            this.bt_BCDoanhThu.TabIndex = 7;
+            this.bt_BCDoanhThu.Text = "                 Doanh thu";
+            this.bt_BCDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_BCDoanhThu.Textcolor = System.Drawing.Color.White;
+            this.bt_BCDoanhThu.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_BCDoanhThu.Click += new System.EventHandler(this.bt_BCDoanhThu_Click);
+            // 
+            // bt_GoiTap
+            // 
+            this.bt_GoiTap.Active = false;
+            this.bt_GoiTap.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_GoiTap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_GoiTap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_GoiTap.BorderRadius = 0;
+            this.bt_GoiTap.ButtonText = "                 Gói tập";
+            this.bt_GoiTap.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_GoiTap.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_GoiTap.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_GoiTap.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_GoiTap.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_GoiTap.Iconimage = null;
+            this.bt_GoiTap.Iconimage_right = null;
+            this.bt_GoiTap.Iconimage_right_Selected = null;
+            this.bt_GoiTap.Iconimage_Selected = null;
+            this.bt_GoiTap.IconMarginLeft = 0;
+            this.bt_GoiTap.IconMarginRight = 0;
+            this.bt_GoiTap.IconRightVisible = true;
+            this.bt_GoiTap.IconRightZoom = 0D;
+            this.bt_GoiTap.IconVisible = true;
+            this.bt_GoiTap.IconZoom = 35D;
+            this.bt_GoiTap.IsTab = false;
+            this.bt_GoiTap.Location = new System.Drawing.Point(0, 41);
+            this.bt_GoiTap.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_GoiTap.Name = "bt_GoiTap";
+            this.bt_GoiTap.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_GoiTap.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_GoiTap.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_GoiTap.selected = false;
+            this.bt_GoiTap.Size = new System.Drawing.Size(237, 41);
+            this.bt_GoiTap.TabIndex = 8;
+            this.bt_GoiTap.Text = "                 Gói tập";
+            this.bt_GoiTap.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_GoiTap.Textcolor = System.Drawing.Color.White;
+            this.bt_GoiTap.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_GoiTap.Click += new System.EventHandler(this.bt_GoiTap_Click);
+            // 
+            // bt_BanHangHoa
+            // 
+            this.bt_BanHangHoa.Active = false;
+            this.bt_BanHangHoa.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_BanHangHoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BanHangHoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_BanHangHoa.BorderRadius = 0;
+            this.bt_BanHangHoa.ButtonText = "      Bán hàng";
+            this.bt_BanHangHoa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_BanHangHoa.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BanHangHoa.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_BanHangHoa.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_BanHangHoa.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_BanHangHoa.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_BanHangHoa.Iconimage")));
+            this.bt_BanHangHoa.Iconimage_right = null;
+            this.bt_BanHangHoa.Iconimage_right_Selected = null;
+            this.bt_BanHangHoa.Iconimage_Selected = null;
+            this.bt_BanHangHoa.IconMarginLeft = 0;
+            this.bt_BanHangHoa.IconMarginRight = 0;
+            this.bt_BanHangHoa.IconRightVisible = true;
+            this.bt_BanHangHoa.IconRightZoom = 0D;
+            this.bt_BanHangHoa.IconVisible = true;
+            this.bt_BanHangHoa.IconZoom = 35D;
+            this.bt_BanHangHoa.IsTab = false;
+            this.bt_BanHangHoa.Location = new System.Drawing.Point(0, 433);
+            this.bt_BanHangHoa.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_BanHangHoa.Name = "bt_BanHangHoa";
+            this.bt_BanHangHoa.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BanHangHoa.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BanHangHoa.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_BanHangHoa.selected = false;
+            this.bt_BanHangHoa.Size = new System.Drawing.Size(237, 70);
+            this.bt_BanHangHoa.TabIndex = 10;
+            this.bt_BanHangHoa.Text = "      Bán hàng";
+            this.bt_BanHangHoa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_BanHangHoa.Textcolor = System.Drawing.Color.White;
+            this.bt_BanHangHoa.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_BanHangHoa.Click += new System.EventHandler(this.bt_DV_Click);
+            // 
+            // bt_BC
+            // 
+            this.bt_BC.Active = false;
+            this.bt_BC.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_BC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_BC.BorderRadius = 0;
+            this.bt_BC.ButtonText = "      Báo cáo";
+            this.bt_BC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_BC.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BC.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_BC.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_BC.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_BC.Iconimage = ((System.Drawing.Image)(resources.GetObject("bt_BC.Iconimage")));
+            this.bt_BC.Iconimage_right = null;
+            this.bt_BC.Iconimage_right_Selected = null;
+            this.bt_BC.Iconimage_Selected = null;
+            this.bt_BC.IconMarginLeft = 0;
+            this.bt_BC.IconMarginRight = 0;
+            this.bt_BC.IconRightVisible = true;
+            this.bt_BC.IconRightZoom = 0D;
+            this.bt_BC.IconVisible = true;
+            this.bt_BC.IconZoom = 35D;
+            this.bt_BC.IsTab = false;
+            this.bt_BC.Location = new System.Drawing.Point(0, 503);
+            this.bt_BC.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_BC.Name = "bt_BC";
+            this.bt_BC.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BC.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_BC.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_BC.selected = false;
+            this.bt_BC.Size = new System.Drawing.Size(237, 70);
+            this.bt_BC.TabIndex = 12;
+            this.bt_BC.Text = "      Báo cáo";
+            this.bt_BC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_BC.Textcolor = System.Drawing.Color.White;
+            this.bt_BC.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_BC.Click += new System.EventHandler(this.bt_BC_Click);
+            // 
+            // bt_HD
+            // 
+            this.bt_HD.Active = false;
+            this.bt_HD.Activecolor = System.Drawing.Color.Transparent;
+            this.bt_HD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_HD.BorderRadius = 0;
+            this.bt_HD.ButtonText = "                 Hóa đơn";
+            this.bt_HD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_HD.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HD.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_HD.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HD.Iconcolor = System.Drawing.Color.Transparent;
+            this.bt_HD.Iconimage = null;
+            this.bt_HD.Iconimage_right = null;
+            this.bt_HD.Iconimage_right_Selected = null;
+            this.bt_HD.Iconimage_Selected = null;
+            this.bt_HD.IconMarginLeft = 0;
+            this.bt_HD.IconMarginRight = 0;
+            this.bt_HD.IconRightVisible = true;
+            this.bt_HD.IconRightZoom = 0D;
+            this.bt_HD.IconVisible = true;
+            this.bt_HD.IconZoom = 35D;
+            this.bt_HD.IsTab = false;
+            this.bt_HD.Location = new System.Drawing.Point(0, 82);
+            this.bt_HD.Margin = new System.Windows.Forms.Padding(4);
+            this.bt_HD.Name = "bt_HD";
+            this.bt_HD.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HD.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(45)))), ((int)(((byte)(61)))));
+            this.bt_HD.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(188)))), ((int)(((byte)(219)))));
+            this.bt_HD.selected = false;
+            this.bt_HD.Size = new System.Drawing.Size(237, 41);
+            this.bt_HD.TabIndex = 8;
+            this.bt_HD.Text = "                 Hóa đơn";
+            this.bt_HD.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_HD.Textcolor = System.Drawing.Color.White;
+            this.bt_HD.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HD.Click += new System.EventHandler(this.bt_HD_Click);
+            // 
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -834,14 +875,14 @@
             this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.pn_SubHT.ResumeLayout(false);
-            this.pn_SubBC.ResumeLayout(false);
             this.pn_SubHV.ResumeLayout(false);
             this.pn_SubDS.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.pn_CC.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bt_Exit)).EndInit();
+            this.pn_SubHT.ResumeLayout(false);
+            this.pn_SubBC.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -865,18 +906,19 @@
         private Bunifu.Framework.UI.BunifuFlatButton bt_DangKyTuDo;
         private Bunifu.Framework.UI.BunifuFlatButton bt_DangKyHLV;
         private Bunifu.Framework.UI.BunifuFlatButton bt_DangKyGoiTap;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_BanHangHoa;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_BC;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_HT;
-        private System.Windows.Forms.Panel pn_SubBC;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_GoiTap;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_BCDoanhThu;
-        private System.Windows.Forms.Panel pn_SubHT;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_QuanLy;
-        private Bunifu.Framework.UI.BunifuFlatButton bt_ThongTinTaiKhoan;
         private System.Windows.Forms.Panel SidePanel;
         private Bunifu.Framework.UI.BunifuDragControl KeoTha;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
         private System.Windows.Forms.Panel pn_Content;
+        private System.Windows.Forms.Panel pn_SubHT;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_QuanLy;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_ThongTinTaiKhoan;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_HT;
+        private System.Windows.Forms.Panel pn_SubBC;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_GoiTap;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_BCDoanhThu;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_BC;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_BanHangHoa;
+        private Bunifu.Framework.UI.BunifuFlatButton bt_HD;
     }
 }

@@ -85,11 +85,35 @@
     <Compile Include="GUI_DanhSach\DataRow.Designer.cs">
       <DependentUpon>DataRow.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_DanhSach\DataRow_HDGT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_DanhSach\DataRow_HDGT.Designer.cs">
+      <DependentUpon>DataRow_HDGT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_DanhSach\UC_DataRowHDHLV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_DanhSach\UC_DataRowHDHLV.Designer.cs">
+      <DependentUpon>UC_DataRowHDHLV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_DanhSach\UC_DataRow_MuonTuDo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_DanhSach\UC_DataRow_MuonTuDo.Designer.cs">
+      <DependentUpon>UC_DataRow_MuonTuDo.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_DanhSach\UC_HLV.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI_DanhSach\UC_HLV.Designer.cs">
       <DependentUpon>UC_HLV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_DanhSach\UC_HoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_DanhSach\UC_HoaDon.Designer.cs">
+      <DependentUpon>UC_HoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_DanhSach\UC_HoiVien.cs">
       <SubType>UserControl</SubType>
@@ -157,11 +181,23 @@
     <Compile Include="GUI_QuanLy\Frm_QuanLy.Designer.cs">
       <DependentUpon>Frm_QuanLy.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_QuanLy\GUI_GoiTap\UC_DataRowGoiTap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_GoiTap\UC_DataRowGoiTap.Designer.cs">
+      <DependentUpon>UC_DataRowGoiTap.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_QuanLy\GUI_GoiTap\UC_GoiTap.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI_QuanLy\GUI_GoiTap\UC_GoiTap.Designer.cs">
       <DependentUpon>UC_GoiTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_HoiVien\UC_DataRowHoiVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_HoiVien\UC_DataRowHoiVien.Designer.cs">
+      <DependentUpon>UC_DataRowHoiVien.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_QuanLy\GUI_HoiVien\UC_HoiVien.cs">
       <SubType>UserControl</SubType>
@@ -169,11 +205,23 @@
     <Compile Include="GUI_QuanLy\GUI_HoiVien\UC_HoiVien.Designer.cs">
       <DependentUpon>UC_HoiVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_QuanLy\GUI_HuanLuyenVien\UC_DataRowHLV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_HuanLuyenVien\UC_DataRowHLV.Designer.cs">
+      <DependentUpon>UC_DataRowHLV.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_QuanLy\GUI_HuanLuyenVien\UC_HuanLuyenVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI_QuanLy\GUI_HuanLuyenVien\UC_HuanLuyenVien.Designer.cs">
       <DependentUpon>UC_HuanLuyenVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_NhanVien\UC_DataRowNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_NhanVien\UC_DataRowNhanVien.Designer.cs">
+      <DependentUpon>UC_DataRowNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_QuanLy\GUI_NhanVien\UC_NhanVien.cs">
       <SubType>UserControl</SubType>
@@ -181,11 +229,23 @@
     <Compile Include="GUI_QuanLy\GUI_NhanVien\UC_NhanVien.Designer.cs">
       <DependentUpon>UC_NhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_QuanLy\GUI_SanPham\UC_DataRowSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_SanPham\UC_DataRowSanPham.Designer.cs">
+      <DependentUpon>UC_DataRowSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_QuanLy\GUI_SanPham\UC_SanPham.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI_QuanLy\GUI_SanPham\UC_SanPham.Designer.cs">
       <DependentUpon>UC_SanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_TuDo\UC_DataRowTuDo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QuanLy\GUI_TuDo\UC_DataRowTuDo.Designer.cs">
+      <DependentUpon>UC_DataRowTuDo.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_QuanLy\GUI_TuDo\UC_TuDo.cs">
       <SubType>UserControl</SubType>
@@ -222,8 +282,20 @@
     <EmbeddedResource Include="GUI_DanhSach\DataRow.resx">
       <DependentUpon>DataRow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_DanhSach\DataRow_HDGT.resx">
+      <DependentUpon>DataRow_HDGT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_DanhSach\UC_DataRowHDHLV.resx">
+      <DependentUpon>UC_DataRowHDHLV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_DanhSach\UC_DataRow_MuonTuDo.resx">
+      <DependentUpon>UC_DataRow_MuonTuDo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_DanhSach\UC_HLV.resx">
       <DependentUpon>UC_HLV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_DanhSach\UC_HoaDon.resx">
+      <DependentUpon>UC_HoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_DanhSach\UC_HoiVien.resx">
       <DependentUpon>UC_HoiVien.cs</DependentUpon>
@@ -258,20 +330,38 @@
     <EmbeddedResource Include="GUI_QuanLy\Frm_QuanLy.resx">
       <DependentUpon>Frm_QuanLy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuanLy\GUI_GoiTap\UC_DataRowGoiTap.resx">
+      <DependentUpon>UC_DataRowGoiTap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_QuanLy\GUI_GoiTap\UC_GoiTap.resx">
       <DependentUpon>UC_GoiTap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuanLy\GUI_HoiVien\UC_DataRowHoiVien.resx">
+      <DependentUpon>UC_DataRowHoiVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_QuanLy\GUI_HoiVien\UC_HoiVien.resx">
       <DependentUpon>UC_HoiVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuanLy\GUI_HuanLuyenVien\UC_DataRowHLV.resx">
+      <DependentUpon>UC_DataRowHLV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_QuanLy\GUI_HuanLuyenVien\UC_HuanLuyenVien.resx">
       <DependentUpon>UC_HuanLuyenVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuanLy\GUI_NhanVien\UC_DataRowNhanVien.resx">
+      <DependentUpon>UC_DataRowNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_QuanLy\GUI_NhanVien\UC_NhanVien.resx">
       <DependentUpon>UC_NhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuanLy\GUI_SanPham\UC_DataRowSanPham.resx">
+      <DependentUpon>UC_DataRowSanPham.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_QuanLy\GUI_SanPham\UC_SanPham.resx">
       <DependentUpon>UC_SanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuanLy\GUI_TuDo\UC_DataRowTuDo.resx">
+      <DependentUpon>UC_DataRowTuDo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_QuanLy\GUI_TuDo\UC_TuDo.resx">
       <DependentUpon>UC_TuDo.cs</DependentUpon>

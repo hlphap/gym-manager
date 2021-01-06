@@ -38,6 +38,7 @@ namespace Gym_Managerment.GUI_DanhSach
                 btnDiemDanh.ForeColor = ColorTranslator.FromHtml("#1EDB4C");
                 btnDiemDanh.IdleFillColor = Color.White;
                 btnDiemDanh.IdleBorderColor = Color.White;
+                btnDiemDanh.Enabled = false;
             }
             else if (!status)
             {
