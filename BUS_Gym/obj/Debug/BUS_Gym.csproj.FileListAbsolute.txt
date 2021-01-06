@@ -1,6 +1,0 @@
-C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\BUS_Gym\bin\Debug\BUS_Gym.dll
-C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\BUS_Gym\bin\Debug\BUS_Gym.pdb
-C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\BUS_Gym\obj\Debug\BUS_Gym.csprojAssemblyReference.cache
-C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\BUS_Gym\obj\Debug\BUS_Gym.csproj.CoreCompileInputs.cache
-C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\BUS_Gym\obj\Debug\BUS_Gym.dll
-C:\Users\TinDz\Desktop\New folder\Gym_Management\GymManagerment\BUS_Gym\obj\Debug\BUS_Gym.pdb
